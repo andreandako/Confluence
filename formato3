@@ -1,0 +1,897 @@
+<ac:layout>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <p class="auto-cursor-target">
+        <br/>
+      </p>
+      <ac:structured-macro ac:macro-id="489f9337-46cf-42b4-bf32-7e479965d508" ac:name="html" ac:schema-version="1">
+        <ac:plain-text-body><![CDATA[<style> 
+ @import url('http://confluence.viavarejo.com.br/download/attachments/60947505/confluence-grupo-casas-bahia-style.css'); 
+</style> 
+
+
+<div id="gcb-hero">
+    <div class=gcb-hero-content>
+		<img src="https://www.grupocasasbahia.com.br/wp-content/uploads/2023/01/logo-gcb-horiz-alt-1024x108.png" /> 
+        <h1>DT - Core Atendimento</h1>
+		<h5>Jornada Customer Success</h5>
+    </div>
+    <div class="gcb-hero-bottom"></div>
+</div>]]></ac:plain-text-body>
+      </ac:structured-macro>
+      <p class="auto-cursor-target">
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <h2 style="text-align: left;">
+        <em> <strong>DT - Cyber Security</strong> </em>
+      </h2>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+      <p>
+        <span style="letter-spacing: 0.0px;">Durante os testes executados, foi possível identificar que o ativo remoto está sob proteção de um WAF, porém, o mesmo pode ter sua proteção anulada devido à uma configuração indevida do firewall de borda. Atacantes conseguem alcançar o endereço original da aplicação remota sem a necessidade de ter que passarem pelo Proxy Reverso ou WAF.</span>
+      </p>
+      <p>
+        <strong>Impacto</strong>
+      </p>
+      <p>Atacantes conseguem burlar a proteção do WAF remoto e coordenar ataques sem serem bloqueados pela camada do WAF.</p>
+      <p>
+        <strong>Sistemas Afetados</strong>
+      </p>
+      <ul class="alternate">
+        <li>
+          <a href="http://oraclerightnow.viavarejo.com.br">oraclerightnow.viavarejo.com.br</a>
+        </li>
+      </ul>
+      <p>
+        <strong>Recomendação</strong>
+      </p>
+      <p>Recomenda-se implementar regras de firewall, permitindo somente as origens do provedor (Ex: Oracle, Akamai, Cloudflare e etc). Geralmente essas configurações são implementadas em "Protection Groups" nos Firewalls de borda.</p>
+      <p>
+        <strong>Referências</strong>
+      </p>
+      <ul class="alternate">
+        <li>
+          <a class="external-link" href="https://blog.detectify.com/2019/07/31/bypassing-cloudflare-waf-with-the-origin-server-ip-address/">https://blog.detectify.com/2019/07/31/bypassing-cloudflare-waf-with-the-origin-server-ip-address/</a>
+        </li>
+        <li>
+          <a class="external-link" href="https://labs.detectify.com/2022/05/09/discovering-the-origin-host-to-bypass-waf/">https://labs.detectify.com/2022/05/09/discovering-the-origin-host-to-bypass-waf/</a>
+        </li>
+        <li>
+          <a class="external-link" href="https://geekflare.com/find-real-ip-origin-address-of-website/">https://geekflare.com/find-real-ip-origin-address-of-website/</a>
+        </li>
+      </ul>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <h2 style="text-align: left;">
+        <em> <strong>Contexto Interno</strong> </em>
+      </h2>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+      <p>Os produtos integrador e L&amp;F estão hospedados em três máquinas Windows, que operam com um sistema de balanceamento de carga para distribuição eficiente de solicitações. Para possibilitar o acesso externo a esses sistemas, foram provisionados registros DNS da seguinte forma:<br/>
+        <br/>
+        <strong>Integrador:</strong>
+      </p>
+      <ul>
+        <li>O registro "VS atual" possui o endereço IP 177.126.185.165.</li>
+        <li>As portas ativas são 443, 82 e 80.</li>
+      </ul>
+      <p>Os nomes de domínio associados a esses registros DNS são <a href="http://rightnow.novapontocom.com.br">rightnow.novapontocom.com.br</a>, <a href="http://rightnow.viavarejo.com.br">rightnow.viavarejo.com.br</a> e <a href="http://oraclerightnow.viavarejo.com.br">oraclerightnow.viavarejo.com.br</a>.<br/>
+        <br/>
+        <strong>L&amp;F:</strong>
+      </p>
+      <ul>
+        <li>O registro "VS atual" possui o endereço IP <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw">177.126.185.104</span> </span>.</li>
+        <li>A porta ativa é 443.</li>
+      </ul>
+      <p>O nome de domínio associado a esse registro DNS é <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <a href="http://atendimento-api.viavarejo.com.br">atendimento-api.viavarejo.com.br</a> </span> </span>.</p>
+      <p>Observamos que os registros DNS e as portas associadas estão atualmente expostos diretamente à Internet, sem passar por uma rede de distribuição de conteúdo, como a Akamai. Essa exposição direta das portas sensíveis representa uma possível vulnerabilidade à segurança, pois poderia facilitar a entrada de atacantes em nossos sistemas e produtos. Assim corroborando com o DT informado pelo time de cyber security.</p>
+      <p class="auto-cursor-target">
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <h2 style="text-align: left;">
+        <em> <strong>Plano de Ação</strong> </em>
+      </h2>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+      <p>
+        <span style="color: rgb(55,65,81);">Para corrigir o problema de exposição direta dos registros DNS e portas sensíveis e, ao mesmo tempo, consolidar os registros DNS em um único domínio, é necessário um plano de ação cuidadosamente elaborado e sincronizado.</span>
+      </p>
+      <p>
+        <br/>
+      </p>
+      <ac:structured-macro ac:macro-id="5b30052d-1120-4404-ad73-e14ba9156997" ac:name="expand" ac:schema-version="1">
+        <ac:parameter ac:name="title">Cyber Security</ac:parameter>
+        <ac:rich-text-body>
+          <ol>
+            <li>
+              <p>
+                <strong>Configuração do Novo DNS</strong>: Configuração do novo DNS com os registros necessários para os sistemas legados. Certifique-se de que as configurações de segurança, como firewall e proteção contra ataques DDoS, estejam em vigor.<br/>
+                <br/>
+                <strong>Integrador:</strong>
+              </p>
+              <p>
+                <u>VS atual 177.126.185.165, Portas atuais 443, 82, 80</u> <br/>
+                <a href="http://rightnow.novapontocom.com.br">rightnow.novapontocom.com.br</a>, <a href="http://rightnow.viavarejo.com.br">rightnow.viavarejo.com.br</a>, <a href="http://oraclerightnow.viavarejo.com.br">oraclerightnow.viavarejo.com.br</a>,</p>
+              <p>
+                <strong>Novo Externo  177.126.185.74 </strong> <br/>vs_rightnow_443_pub</p>
+              <p>
+                <strong>Novo Interno  10.128.22.74</strong> <br/>vs_rightnow_443_int <br/>vs_rightnow_80_int<br/>vs_rightnow_82_int</p>
+              <p>________________________________________________________________</p>
+              <p>
+                <strong> <br/>L&amp;F:</strong>
+              </p>
+              <p>
+                <u>VS atual 177.126.185.104, Porta 443</u>
+              </p>
+              <p>
+                <a href="http://atendimento-api.viavarejo.com.br">atendimento-api.viavarejo.com.br</a>
+              </p>
+              <p>
+                <strong>Novo Externo  177.126.185.75 </strong>
+              </p>
+              <p>vs_api_rightnow_443_pub </p>
+              <p>
+                <strong>Novo Interno  10.128.22.75 </strong>  </p>
+              <p>vs_api_rightnow_443_int <br/>
+                <br/>
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Testes Internos</strong>: Realizar testes internos abrangentes para garantir que o novo DNS esteja funcionando corretamente e redirecionando o tráfego para as portas corretas.</p>
+            </li>
+            <li>
+              <p>
+                <strong>Notificação aos Clientes</strong>: Comunicar antecipadamente aos clientes sobre a mudança planejada no DNS e forneça instruções claras sobre como atualizar suas configurações.</p>
+            </li>
+          </ol>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <p>
+        <br/>
+      </p>
+      <ac:structured-macro ac:macro-id="4d87b25b-6d2a-45ba-b2f6-55948cd70e3f" ac:name="expand" ac:schema-version="1">
+        <ac:parameter ac:name="title">Produtos Internos</ac:parameter>
+        <ac:rich-text-body>
+          <ol>
+            <li>
+              <p>
+                <strong>Suporte ao Cliente</strong>: Ajustar todos os produtos internos listados abaixo, para bater no novo DNS.<br/>
+                <br/>
+              </p>
+              <table class="wrapped">
+                <tbody>
+                  <tr>
+                    <td>
+                      <strong>PRODUTO</strong>
+                    </td>
+                    <td>
+                      <strong>DNS</strong>
+                    </td>
+                    <td>
+                      <strong>STATUS</strong>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>vv-atendimento-api</td>
+                    <td>
+                      <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/" title="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/">http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/</a>
+                    </td>
+                    <td>
+                      <br/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>cra-api</td>
+                    <td>
+                      <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/" title="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/">http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/</a>
+                    </td>
+                    <td>
+                      <br/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>ab2b-atendimento-api</td>
+                    <td>
+                      <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="http://rightnow.novapontocom.com.br:82/integrador/" title="http://rightnow.novapontocom.com.br:82/integrador/">http://rightnow.novapontocom.com.br:82/integrador/</a>
+                    </td>
+                    <td>
+                      <br/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Robô Forçar Massivo</td>
+                    <td>
+                      <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/" title="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/">http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/</a>
+                    </td>
+                    <td>
+                      <br/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>integration-creditstatus-functions</td>
+                    <td>
+                      <p>
+                        <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/" title="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/">http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/</a>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <br/>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Atlas ON</p>
+                    </td>
+                    <td>
+                      <p>
+                        <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/" title="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/">http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/</a>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <br/>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Atende+ (Figital)</p>
+                    </td>
+                    <td>
+                      <p>
+                        <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/" title="http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/">http://rightnow.novapontocom.com.br:82/integrador/api/v1.0/</a>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <br/>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Robô <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw">CHARGEBACK</span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" title="https://atendimento-api.viavarejo.com.br/%22/%3e">https://atendimento-api.viavarejo.com.br/</a> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw">Robô ENCERRAMENTO INCIDENTES</span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" title="https://atendimento-api.viavarejo.com.br/%22/%3e">https://atendimento-api.viavarejo.com.br/</a> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw">Robô MASSIVO ERRO VALIDADOR</span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" title="https://atendimento-api.viavarejo.com.br/%22/%3e">https://atendimento-api.viavarejo.com.br/</a> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw">Robô MONITORAMENTO</span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" title="https://atendimento-api.viavarejo.com.br/%22/%3e">https://atendimento-api.viavarejo.com.br/</a> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw">Robô ROBO_FORCAR_MASSIVO</span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" title="https://atendimento-api.viavarejo.com.br/%22/%3e">https://atendimento-api.viavarejo.com.br/</a> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw">Robô ROBO_OLA</span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <a class="fui-Link ___10kug0w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" title="https://atendimento-api.viavarejo.com.br/%22/%3e">https://atendimento-api.viavarejo.com.br/</a> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Figital -&gt; Relacionamento<br/>Pós venda omnichannel - Atende+</p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <span style="color: rgb(0,0,0);"> <a href="http://rightnow.novapontocom.com.br:82/integrador/">http://rightnow.novapontocom.com.br:82/integrador/</a> </span> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <span style="color: rgb(0,0,0);">Onboarding negocio</span> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <span style="color: rgb(0,0,0);"> <a href="http://rightnow.novapontocom.com.br:82/integrador/integrador-omni-tst3/Sucesso">http://rightnow.novapontocom.com.br:82/integrador/integrador-omni-tst3/Sucesso</a>;</span> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <span style="color: rgb(0,0,0);">Customer Success, Canais Digitais, Comunicação</span> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <span style="color: rgb(0,0,0);"> <a href="http://rightnow.novapontocom.com.br:82/integrador/">http://rightnow.novapontocom.com.br:82/integrador/</a>;</span> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Jornada: Qualidade de Dados<br/>Tribo: Gestão e Qualidade de Dados<br/>SQUAD: LGPD</p>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <span style="color: rgb(0,0,0);"> <a href="http://rightnow.novapontocom.com.br:82/integrador/">http://rightnow.novapontocom.com.br:82/integrador/</a> </span> </span> </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <span> <span class="ui-provider bwp bwq blk bwr bws bwt bwu bwv bww bwx bwy bwz bxa bxb bxc bxd bxe bxf bxg bxh bxi bxj bxk bxl bxm bxn bxo bxp bxq bxr bxs bxt bxu bxv bxw"> <br/>
+                          </span> </span>
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="auto-cursor-target">
+                <br/>
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Monitoramento Contínuo</strong>: Monitorar o tráfego e a atividade de DNS durante o processo de migração para identificar quaisquer problemas ou interrupções.</p>
+            </li>
+          </ol>
+          <p>
+            <br/>
+          </p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <p>
+        <br/>
+      </p>
+      <ac:structured-macro ac:macro-id="fbe3fe02-13de-4207-8142-1ab2da872f65" ac:name="expand" ac:schema-version="1">
+        <ac:parameter ac:name="title">Produtos Externos</ac:parameter>
+        <ac:rich-text-body>
+          <ol>
+            <li>
+              <p>
+                <strong>Suporte ao Cliente</strong>: Ajustar todos os produtos internos listados abaixo, para bater no novo DNS.<br/>
+                <br/>
+              </p>
+              <table class="wrapped">
+                <tbody>
+                  <tr>
+                    <td>
+                      <strong>PRODUTO</strong>
+                    </td>
+                    <td>
+                      <strong>DNS</strong>
+                    </td>
+                    <td>
+                      <strong>STATUS</strong>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <br/>
+                    </td>
+                    <td>
+                      <br/>
+                    </td>
+                    <td>
+                      <br/>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="auto-cursor-target">
+                <br/>
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Monitoramento Contínuo</strong>: Monitorar o tráfego e a atividade de DNS durante o processo de migração para identificar quaisquer problemas ou interrupções.</p>
+            </li>
+          </ol>
+          <p>
+            <br/>
+          </p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <p class="auto-cursor-target">
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <h2>
+        <em> <strong>Riscos &amp; Desafios</strong> </em>
+      </h2>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <h2 style="text-align: left;">
+        <em> <strong>Referências &amp; Recursos</strong> </em>
+      </h2>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p class="auto-cursor-target">
+        <br/>
+      </p>
+      <ac:structured-macro ac:macro-id="98331c02-a72c-4574-9e3a-d4d3468f4bc4" ac:name="expand" ac:schema-version="1">
+        <ac:parameter ac:name="title">Lista de anexos</ac:parameter>
+        <ac:rich-text-body>
+          <p>
+            <br/>
+          </p>
+        </ac:rich-text-body>
+      </ac:structured-macro>
+      <p class="auto-cursor-target">
+        <br/>
+      </p>
+      <p class="auto-cursor-target">
+        <br/>
+      </p>
+      <p class="auto-cursor-target">
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="three_with_sidebars">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+  <ac:layout-section ac:type="single">
+    <ac:layout-cell>
+      <p>
+        <br/>
+      </p>
+    </ac:layout-cell>
+  </ac:layout-section>
+</ac:layout>
