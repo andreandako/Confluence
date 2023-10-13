@@ -1,0 +1,13 @@
+<style> 
+ @import url('http://confluence.viavarejo.com.br/download/attachments/60947505/confluence-grupo-casas-bahia-style.css'); 
+</style> 
+
+
+<div id="gcb-hero">
+    <div class=gcb-hero-content>
+		<img src="https://www.grupocasasbahia.com.br/wp-content/uploads/2023/01/logo-gcb-horiz-alt-1024x108.png" /> 
+        <h1>DT - Core Atendimento</h1>
+		<h5>Jornada Customer Success</h5>
+    </div>
+    <div class="gcb-hero-bottom"></div>
+</div>
